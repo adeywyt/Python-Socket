@@ -1,0 +1,13 @@
+地址族
+创建套接字时，必须指定其地址族。 然后，我们只能在套接字中使用该类型的地址。
+AF_UNIX，AF_LOCAL-本地通讯
+AF_INET-IPv4 Internet 协议
+AF_INET6-IPv6 Internet 协议
+AF_IPX-IPX-Novell 协议
+AF_BLUETOOTH-无线蓝牙协议
+AF_PACKET-底层数据包接口
+
+
+
+socket.SOCK_STREAM用于为 TCP 创建套接字.
+socket.SOCK_DGRAM用于为UDP 创建套接字.

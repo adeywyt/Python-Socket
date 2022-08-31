@@ -1,0 +1,18 @@
+OSI 定义的七层网络模型如下：
+
+(1)物理层（Physical layer）：定义在实物上，如电缆上传输数据时所需的信息.
+
+(2)数据链路层（Data link layer）：定义数据如何在实物上传进／传出.点对点的错误更正通常是在此层进行
+
+(3)网络层（Network layer）：设置唯一的地址给网络上的元素，如此信息才能传到正确的计算机上.IP 协议在此层进行
+
+(4)传输层（Transport layer）：封装数据并确定数据传输没有错误。TCP 与 UDP 协议在此层进行.
+
+(5)会话层（Session layer）：处理每一个连接，一个连接称为一个会话（session).
+
+(6)表示层（Presentation layer）：用来处理不同的操作系统，有不同的整数格式的问题.
+TCP/IP将此问题放在应用层上处理，Python 则使用 struct 模块处理此问题.
+
+(7)应用层（Application layer）：操作最后的产物。应用程序、FTP客户机、SMTP/POP3 邮件处理器及HTTP浏览器都属于此层。
+
+网络的连接有两种类型：以连接为导向（connection-oriented）与以包为导向（packet-oriented）.
